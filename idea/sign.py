@@ -276,11 +276,11 @@ def main():
         'licenseRestriction': '',
         'checkConcurrentUse': False,
         'products': [
-            {"code": "PCWMP", "fallbackDate": "2027-01-14", "paidUpTo": "2027-01-14", "extended": True},
-            {"code": "PRR", "fallbackDate": "2027-01-14", "paidUpTo": "2027-01-14", "extended": True},
-            {"code": "PDB", "fallbackDate": "2027-01-14", "paidUpTo": "2027-01-14", "extended": True},
-            {"code": "PSI", "fallbackDate": "2027-01-14", "paidUpTo": "2027-01-14", "extended": True},
-            {"code": "II", "fallbackDate": "2027-01-14", "paidUpTo": "2027-01-14", "extended": False}
+            {"code": "PCWMP", "fallbackDate": date, "paidUpTo": date, "extended": True},
+            {"code": "PRR", "fallbackDate": date, "paidUpTo": date, "extended": True},
+            {"code": "PDB", "fallbackDate": date, "paidUpTo": date, "extended": True},
+            {"code": "PSI", "fallbackDate": date, "paidUpTo": date, "extended": True},
+            {"code": "II", "fallbackDate": date, "paidUpTo": date, "extended": False}
         ],
         'metadata': '0220240702PSAX000005X',
         'hash': '12345678/0-541816629',
